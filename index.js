@@ -21,7 +21,7 @@ function App() {
 
 function fetchData() {
 
-    fetch('https://www.poemist.com/api/v1/randompoems?size=100')
+    fetch('https://www.poemist.com/api/v1/randompoems?size=100') 
         .then(resp => {
             // console.log(resp)
             return resp.json()
